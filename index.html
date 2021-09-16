@@ -2,20 +2,21 @@
 <html lang="en">
   <head>
     <title>0915-html-css-project</title>
-  </head>
-  <body>
+
+    <!-- Mike: Style tags should be in the <head> tag -->
     <style>
+      /* Mike: Use inheritance to set the font-family for all nodes */
+      body {
+        font-family: Comic Sans MS;
+      }
       .toptitle {
         font-weight: bolder;
         font-size: xxx-large;
         text-align: center;
-        font-family: Comic Sans MS;
       }
 
       .content {
-        display: flex;
         width: fit-content;
-        font-family: Comic Sans MS;
         font-size: x-small;
         border: 1px solid black;
         background-color: burlywood;
@@ -23,23 +24,24 @@
         text-align: center;
       }
 
+      .row {
+        display: flex;
+      }
+
       .small-title {
         font-weight: bolder;
         text-align: center;
-        font-family: Comic Sans MS;
         font-size: x-large;
       }
 
       .upperleft {
         border: 1px solid black;
-        height: 450px;
         width: 200px;
         padding: 30px;
       }
 
       .uppermiddle {
         border: 1px solid black;
-        height: 450px;
         width: 600px;
         padding: 30px;
       }
@@ -59,118 +61,117 @@
         border: 1px solid black;
       }
     </style>
-
+  </head>
+  <body>
     <h1 class="toptitle">Life with WANKO</h1>
 
     <div class="content">
-      <div class="upperleft">
-        <h2 class="small-title">Lima is now 5 months old!</h2>
-        <div>
-          Her name is LIMA. We named her name Lima after a character called Lima
-          from "Saber Marionette". The character is very energetic and pure and
-          we both liked her. Also, when we were thinking about her name, we were
-          talking about unique but cute name, then we were saying random words,
-          then a word "Lemon" popped up. Lemon is "Lima" in Spanish which my
-          husband's mother language. She is Shiba. Oh yes, obviously, SHIBA! But
-          I still want to mention it, because she sometimes acts like a cat and
-          looks like a corgi and a fox. Her birthday is April 11th, 2021. We
-          welcomed Lima in June. Our cute loving family member, Lima has already
-          become 5 months this month!
+      <div class="row">
+        <div class="upperleft">
+          <h2 class="small-title">Lima is now 5 months old!</h2>
+          <p>
+            Her name is LIMA. We named her name Lima after a character called
+            Lima from "Saber Marionette". The character is very energetic and
+            pure and we both liked her. Also, when we were thinking about her
+            name, we were talking about unique but cute name, then we were
+            saying random words, then a word "Lemon" popped up. Lemon is "Lima"
+            in Spanish which my husband's mother language. She is Shiba. Oh yes,
+            obviously, SHIBA! But I still want to mention it, because she
+            sometimes acts like a cat and looks like a corgi and a fox. Her
+            birthday is April 11th, 2021. We welcomed Lima in June. Our cute
+            loving family member, Lima has already become 5 months this month!
+          </p>
         </div>
-      </div>
 
-      <div class="uppermiddle">
-        <h2 class="small-title">"Take me home..."</h2>
-        <center><img src="http://placecorgi.com/500/300" /></center>
+        <div class="uppermiddle">
+          <h2 class="small-title">"Take me home..."</h2>
+          <center><img src="http://placecorgi.com/500/300" /></center>
 
-        <div>
-          My husband and I are dog lovers. We like visiting pet shops to find
-          cute dogs. We always talked about what-if-we-have-a-dog talks, but did
-          not happen until this day. YES! The day we met Lima! When we saw her
-          in petshop, we both were like "awwwwwwww..." then, we held her in our
-          arms. Then yes, we were like "aawwwwwwwwwwwww..." Then yes, title
-          says, "Take me home", but it was more like "Come home with us....!" We
-          signed a contract, and now we are all together!
+          <p>
+            My husband and I are dog lovers. We like visiting pet shops to find
+            cute dogs. We always talked about what-if-we-have-a-dog talks, but
+            did not happen until this day. YES! The day we met Lima! When we saw
+            her in petshop, we both were like "awwwwwwww..." then, we held her
+            in our arms. Then yes, we were like "aawwwwwwwwwwwww..." Then yes,
+            title says, "Take me home", but it was more like "Come home with
+            us....!" We signed a contract, and now we are all together!
+          </p>
         </div>
-      </div>
 
-      <div>
         <div class="upperright">
           <h2>What's like to have a dog?</h2>
-          <div>
+          <p>
             Let's imagine. Poop everywhere, wake up in the middle of nights,
             barking and biting anything. That's kind of yes, but mostly not. The
             fact is, our life has got even sweeter.
+          </p>
 
-            <h3>1. Toilet</h3>
-            <div>
-              We struggled to teach her the toilet in the beginning, but she has
-              learned quite fast which we really appreciated and happy about.
-            </div>
+          <h3>1. Toilet</h3>
+          <p>
+            We struggled to teach her the toilet in the beginning, but she has
+            learned quite fast which we really appreciated and happy about.
+          </p>
 
-            <h3>2. Sleep</h3>
-            <div>
-              Well, she sleeps perfectly. She goes to bed between 10-11pm and
-              wakes up around 7am now. She used to wake up 6am when we just got
-              her, calling us to free her. But now, she has got used to our
-              lifestyle so that she can wait quietly until we wake up around 6
-              or 7am without barking or anything. Smart Lima chin!
-            </div>
+          <h3>2. Sleep</h3>
+          <p>
+            Well, she sleeps perfectly. She goes to bed between 10-11pm and
+            wakes up around 7am now. She used to wake up 6am when we just got
+            her, calling us to free her. But now, she has got used to our
+            lifestyle so that she can wait quietly until we wake up around 6 or
+            7am without barking or anything. Smart Lima chin!
+          </p>
 
-            <h3>3. Personality</h3>
-            <div>
-              She is very curious, but careful. She is very careful with new
-              things, but once she gets used to them, she gets so energetic and
-              excited. She really likes people (which I really like). Whenever
-              we have friends coming over, she gets so happy and excited. She
-              smells and lick them instead of biting! ...well, she bites too,
-              but not too hard now. She has learned about strength, but she
-              usually LOVES biting things.
-            </div>
+          <h3>3. Personality</h3>
+          <p>
+            She is very curious, but careful. She is very careful with new
+            things, but once she gets used to them, she gets so energetic and
+            excited. She really likes people (which I really like). Whenever we
+            have friends coming over, she gets so happy and excited. She smells
+            and lick them instead of biting! ...well, she bites too, but not too
+            hard now. She has learned about strength, but she usually LOVES
+            biting things.
+          </p>
 
-            <h3>4. Likes and Dislikes</h3>
-            <div>
-              I have said she liked people above. She really likes people
-              outside too. When we meet some people walking their dogs, she
-              literally goes to the owners and ask for patting. haha Also, she
-              loves eating, playing, and walking. She really likes her dog food
-              (which is very helpful for us), carrot,and paprika, and daison. We
-              found out recently that she doesn't like lever. My husband and I
-              don't like lever much either, so I felt we are more family now.
-              ('')
-            </div>
+          <h3>4. Likes and Dislikes</h3>
+          <p>
+            I have said she liked people above. She really likes people outside
+            too. When we meet some people walking their dogs, she literally goes
+            to the owners and ask for patting. haha Also, she loves eating,
+            playing, and walking. She really likes her dog food (which is very
+            helpful for us), carrot,and paprika, and daison. We found out
+            recently that she doesn't like lever. My husband and I don't like
+            lever much either, so I felt we are more family now. ('')
+          </p>
 
-            <h3>5. Expressions</h3>
-            <div>
-              One of the things I really like about Lima chin is her
-              expressions. It might be more like a Shiba thing, but they really
-              make me laugh. Especially the times I really stressed out from
-              work, her expressions and how she is really helped me to switch my
-              mind. When we play with her, she really gets excited and happy.
-              ,We throw toys happily imagine her chasing energetically, but
-              sometimes out of nowhere, she just look at thrown toys flowing the
-              air with poker face and just sitting as if she has no interest.
-              (although she was chasing them so much like a second ago!)
-            </div>
+          <h3>5. Expressions</h3>
+          <p>
+            One of the things I really like about Lima chin is her expressions.
+            It might be more like a Shiba thing, but they really make me laugh.
+            Especially the times I really stressed out from work, her
+            expressions and how she is really helped me to switch my mind. When
+            we play with her, she really gets excited and happy. ,We throw toys
+            happily imagine her chasing energetically, but sometimes out of
+            nowhere, she just look at thrown toys flowing the air with poker
+            face and just sitting as if she has no interest. (although she was
+            chasing them so much like a second ago!)
+          </p>
 
-            <h3>6. Behaviors</h3>
-            <div>
-              When she is excited and happy, she shows her tongue excitedly,
-              then says "awoooooooooooo, awo, awo, awooooooooon." When she is
-              calm which is super cute, she comes at you. When we are sitting so
-              that she cannot reach us much, she still comes at our feet and
-              rest on our foot. This really melt our heart. SO CUTE! And when
-              she eats carrots and paprika, I cut them long enough, then she
-              holds a carrot by her both front feet elegantly. SO CUTE. She
-              really makes us laugh and happy in daily life.
-
-              <div class="bottom">Favorite toys</div>
-
-              <div class="bottom">She eats EVERYTHING except for..</div>
-            </div>
-          </div>
+          <h3>6. Behaviors</h3>
+          <p>
+            When she is excited and happy, she shows her tongue excitedly, then
+            says "awoooooooooooo, awo, awo, awooooooooon." When she is calm
+            which is super cute, she comes at you. When we are sitting so that
+            she cannot reach us much, she still comes at our feet and rest on
+            our foot. This really melt our heart. SO CUTE! And when she eats
+            carrots and paprika, I cut them long enough, then she holds a carrot
+            by her both front feet elegantly. SO CUTE. She really makes us laugh
+            and happy in daily life.
+          </p>
         </div>
       </div>
+      <div class="bottom">Favorite toys</div>
+
+      <div class="bottom">She eats EVERYTHING except for..</div>
     </div>
   </body>
 </html>
