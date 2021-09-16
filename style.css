@@ -1,0 +1,93 @@
+/* Mike: Use inheritance to set the font-family for all nodes */
+body {
+  font-family: Comic Sans MS;
+}
+.toptitle {
+  font-weight: bolder;
+  font-size: xxx-large;
+  text-align: center;
+}
+
+.content {
+  width: fit-content;
+  font-size: x-small;
+  border: 1px solid black;
+  background-color: burlywood;
+  padding: 100px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.small-title {
+  font-weight: bolder;
+  text-align: center;
+  font-size: x-large;
+}
+
+.upperleft {
+  border: 1px solid black;
+  width: 200px;
+  padding: 30px;
+}
+
+.uppermiddle {
+  border: 1px solid black;
+  width: 600px;
+  padding: 30px;
+}
+
+.upperright {
+  border: 1px solid black;
+  width: 200px;
+  padding: 30px;
+}
+
+.bottom {
+  display: flex;
+}
+
+.bottomleft {
+  font-size: x-large;
+  font-weight: bold;
+  width: 200px;
+  height: 300px;
+  padding-top: 30px;
+  border: 1px solid black;
+}
+.link {
+  width: 900px;
+  height: 300px;
+  font-size: xx-small;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.link-title {
+  font-size: small;
+  font-weight: bold;
+}
+
+.link1 {
+  background-color: lightpink;
+  padding-left: 30px;
+}
+
+.link2 {
+  background-color: lightcoral;
+  padding-left: 30px;
+}
+.link3 {
+  background-color: lightsalmon;
+  padding-left: 30px;
+}
+.link4 {
+  background-color: lightgreen;
+  padding-left: 30px;
+}
+.link5 {
+  background-color: lightblue;
+  padding-left: 30px;
+}

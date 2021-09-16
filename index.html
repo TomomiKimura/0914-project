@@ -1,65 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
+    <link rel="stylesheet"
+          href="style.css"
     <title>0915-html-css-project</title>
 
     <!-- Mike: Style tags should be in the <head> tag -->
     <style>
-      /* Mike: Use inheritance to set the font-family for all nodes */
-      body {
-        font-family: Comic Sans MS;
-      }
-      .toptitle {
-        font-weight: bolder;
-        font-size: xxx-large;
-        text-align: center;
-      }
 
-      .content {
-        width: fit-content;
-        font-size: x-small;
-        border: 1px solid black;
-        background-color: burlywood;
-        padding: 100px;
-        text-align: center;
-      }
-
-      .row {
-        display: flex;
-      }
-
-      .small-title {
-        font-weight: bolder;
-        text-align: center;
-        font-size: x-large;
-      }
-
-      .upperleft {
-        border: 1px solid black;
-        width: 200px;
-        padding: 30px;
-      }
-
-      .uppermiddle {
-        border: 1px solid black;
-        width: 600px;
-        padding: 30px;
-      }
-
-      .upperright {
-        border: 1px solid black;
-        background-color: lightgoldenrodyellow;
-        height: 1000px;
-        width: 200px;
-        font-size: xx-small;
-        text-align: center;
-        padding: 30px;
-      }
-
-      .bottom {
-        display: flex;
-        border: 1px solid black;
-      }
     </style>
   </head>
   <body>
@@ -68,7 +17,7 @@
     <div class="content">
       <div class="row">
         <div class="upperleft">
-          <h2 class="small-title">Lima is now 5 months old!</h2>
+          <div class="small-title">Lima is now 5 months old!</div>
           <p>
             Her name is LIMA. We named her name Lima after a character called
             Lima from "Saber Marionette". The character is very energetic and
@@ -84,7 +33,7 @@
         </div>
 
         <div class="uppermiddle">
-          <h2 class="small-title">"Take me home..."</h2>
+          <div class="small-title">"Take me home..."</div>
           <center><img src="http://placecorgi.com/500/300" /></center>
 
           <p>
@@ -99,79 +48,73 @@
         </div>
 
         <div class="upperright">
-          <h2>What's like to have a dog?</h2>
-          <p>
-            Let's imagine. Poop everywhere, wake up in the middle of nights,
-            barking and biting anything. That's kind of yes, but mostly not. The
-            fact is, our life has got even sweeter.
-          </p>
-
-          <h3>1. Toilet</h3>
-          <p>
-            We struggled to teach her the toilet in the beginning, but she has
-            learned quite fast which we really appreciated and happy about.
-          </p>
-
-          <h3>2. Sleep</h3>
-          <p>
-            Well, she sleeps perfectly. She goes to bed between 10-11pm and
-            wakes up around 7am now. She used to wake up 6am when we just got
-            her, calling us to free her. But now, she has got used to our
-            lifestyle so that she can wait quietly until we wake up around 6 or
-            7am without barking or anything. Smart Lima chin!
-          </p>
-
-          <h3>3. Personality</h3>
-          <p>
-            She is very curious, but careful. She is very careful with new
-            things, but once she gets used to them, she gets so energetic and
-            excited. She really likes people (which I really like). Whenever we
-            have friends coming over, she gets so happy and excited. She smells
-            and lick them instead of biting! ...well, she bites too, but not too
-            hard now. She has learned about strength, but she usually LOVES
-            biting things.
-          </p>
-
-          <h3>4. Likes and Dislikes</h3>
-          <p>
-            I have said she liked people above. She really likes people outside
-            too. When we meet some people walking their dogs, she literally goes
-            to the owners and ask for patting. haha Also, she loves eating,
-            playing, and walking. She really likes her dog food (which is very
-            helpful for us), carrot,and paprika, and daison. We found out
-            recently that she doesn't like lever. My husband and I don't like
-            lever much either, so I felt we are more family now. ('')
-          </p>
-
-          <h3>5. Expressions</h3>
-          <p>
-            One of the things I really like about Lima chin is her expressions.
-            It might be more like a Shiba thing, but they really make me laugh.
-            Especially the times I really stressed out from work, her
-            expressions and how she is really helped me to switch my mind. When
-            we play with her, she really gets excited and happy. ,We throw toys
-            happily imagine her chasing energetically, but sometimes out of
-            nowhere, she just look at thrown toys flowing the air with poker
-            face and just sitting as if she has no interest. (although she was
-            chasing them so much like a second ago!)
-          </p>
-
-          <h3>6. Behaviors</h3>
-          <p>
-            When she is excited and happy, she shows her tongue excitedly, then
+          <div class="small-title">Her Way of Communication</div>
+          <p> When she is excited and happy, she shows her tongue excitedly, then
             says "awoooooooooooo, awo, awo, awooooooooon." When she is calm
             which is super cute, she comes at you. When we are sitting so that
             she cannot reach us much, she still comes at our feet and rest on
-            our foot. This really melt our heart. SO CUTE! And when she eats
+            our foot. This really melts our heart. SO CUTE! And when she eats
             carrots and paprika, I cut them long enough, then she holds a carrot
             by her both front feet elegantly. SO CUTE. She really makes us laugh
-            and happy in daily life.
-          </p>
+            and happy in daily life.</p>
         </div>
       </div>
-      <div class="bottom">Favorite toys</div>
 
-      <div class="bottom">She eats EVERYTHING except for..</div>
+      <div class="bottom">
+        <div class="bottomleft">What's like to have a dog?</div>
+
+      <div class="link">
+
+        <div class="link1">
+          <div class="link-title">
+            <a href="https://bestlifeonline.com/life-lessons-from-dogs/" >1. Tolet</a></div>
+          <p>We struggled to teach her the toilet in the beginning, but she has
+          learned quite fast which we really appreciated and happy about.</p></div>
+
+        <div class="link2">
+          <div class="link-title">
+            <a href="https://bestlifeonline.com/life-lessons-from-dogs/" >2. Sleep</a></div>
+          <p>Well, she sleeps perfectly. She goes to bed between 10-11pm and
+          wakes up around 7am now. She used to wake up 6am when we just got
+          her, calling us to free her. But now, she has got used to our
+          lifestyle so that she can wait quietly until we wake up around 6 or
+          7am without barking or anything. Smart Lima chin!</p></div>
+
+        <div class="link3">
+          <div class="link-title">
+            <a href="https://bestlifeonline.com/life-lessons-from-dogs/" >3.Personality</a></div>
+          <p>She is very curious, but careful. She is very careful with new
+          things, but once she gets used to them, she gets so energetic and
+          excited. She really likes people (which I really like). Whenever we
+          have friends coming over, she gets so happy and excited. She smells
+          and lick them instead of biting! ...well, she bites too, but not too
+          hard now. She has learned about strength, but she usually LOVES
+          biting things.</p></div>
+
+        <div class="link4">
+          <div class="link-title">
+            <a href="https://bestlifeonline.com/life-lessons-from-dogs/" >4.Likes and Dislikes</a></div>
+          <p>I have said she liked people above. She really likes people outside
+          too. When we meet some people walking their dogs, she literally goes
+          to the owners and ask for patting. haha Also, she loves eating,
+          playing, and walking. She really likes her dog food (which is very
+          helpful for us), carrot,and paprika, and daison. We found out
+          recently that she doesn't like lever. My husband and I don't like
+          lever much either, so I felt we are more family now. ('')<p/></div>
+
+        <div class="link5">
+          <div class="link-title">
+            <a href="https://bestlifeonline.com/life-lessons-from-dogs/" >5. Expressions</a></div>
+        <p>One of the things I really like about Lima chin is her expressions.
+        It might be more like a Shiba thing, but they really make me laugh.
+        Especially the times I really stressed out from work, her
+        expressions and how she is really helped me to switch my mind. When
+        we play with her, she really gets excited and happy. ,We throw toys
+        happily imagine her chasing energetically, but sometimes out of
+        nowhere, she just look at thrown toys flowing the air with poker
+        face and just sitting as if she has no interest. (although she was
+        chasing them so much like a second ago!)</p></div>
+      </div>
     </div>
   </body>
 </html>
